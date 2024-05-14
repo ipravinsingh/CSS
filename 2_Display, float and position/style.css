@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.red-border {
+  border: 2px solid red;
+}
+.header-test {
+  background-color: rgb(204, 170, 127);
+}
+
+p {
+  width: 400px;
+  display: inline-block;
+  margin: 40px;
+}
+
+a {
+  /* display: block; */
+  display: inline-block;
+  width: 400px;
+}
+
+img {
+  display: none;
+  width: 400px;
+}
