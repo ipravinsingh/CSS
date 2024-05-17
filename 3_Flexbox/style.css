@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   height: 400px;
   border: 2px solid red;
@@ -8,11 +14,29 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: stretch;
-  align-items: center;
-  gap: 10px;
+  align-content: baseline;
+  /* gap: 10px; */
+  /* row-gap: 20px; */
+  /* column-gap: 40px; */
+  flex-direction: row;
+  /* gap: 20px; */
+  align-content: center;
 }
 
 .box {
   border: 2px solid green;
-  width: 60px;
+  /* width: 60px; */
+  /* flex-grow: 1; */
+  flex-basis: 25%;
+}
+
+#box-3 {
+  /* order: 1;
+  flex-grow: 5; */
+  flex-basis: 200px;
+}
+
+#box-1 {
+  order: 5;
+  flex-shrink: 20;
 }
