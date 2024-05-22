@@ -1,0 +1,9 @@
+h1 {
+  color: blueviolet;
+  text-align: center;
+  text-decoration-line: underline overline;
+}
+p {
+  text-align: justify;
+  text-decoration: underline;
+}
