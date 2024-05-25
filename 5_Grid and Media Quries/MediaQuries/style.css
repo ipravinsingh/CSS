@@ -1,0 +1,83 @@
+body {
+  background-color: red;
+  height: 100vh;
+}
+
+h1 {
+  font-family: serif;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 10px;
+}
+p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  padding: 20px;
+  /* display: block; */
+  cursor: pointer;
+  border: 5px solid rgb(102, 0, 255);
+  background-color: #49a8ce;
+  flex-basis: 100%;
+}
+
+/* tablet only */
+@media only screen and (min-width: 641px) {
+  body {
+    background-color: green;
+  }
+  /*
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } */
+  /* 
+  li {
+    display: inline;
+  } */
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    flex-basis: 100%;
+  }
+}
+
+/* larger screen like laptops */
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: blueviolet;
+  }
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    flex-basis: 100%;
+  }
+
+  h1 {
+    margin-top: 100px;
+    font-size: 8rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+}
+
+/* @media screen and (orientation: landscape) and (min-width: 1000px) {
+  body {
+    background-color: yellow;
+  }
+} */
